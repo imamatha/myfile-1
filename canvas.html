@@ -1,44 +1,23 @@
 <!DOCTYPE html>
 <html>
 <body>
+
+<p>Click the button to loop through a block of as long as <em>i</em> is less than 5.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
 <script>
-var x=prompt("Enter a number between 5 and 10:","");
-try
-  { 
-  if(x>10)
-    {
-    throw "Err1";
-    }
-  else if(x<5)
-    {
-    throw "Err2";
-    }
-  else if(isNaN(x))
-    {
-    throw "Err3";
-    }
-   else
-   {
-    document.write("valid number");
-    }
-
-
-  }
-catch(err)
+function myFunction()
+{
+var x="",i=0;
+while (i<5)
   {
-  if(err=="Err1")
-    {
-    document.write("Error! The value is too high.");
-    }
-  if(err=="Err2")
-    {
-    document.write("Error! The value is too low.");
-    }
-  if(err=="Err3")
-    {
-    document.write("Error! The value is not a number.");
-    }
+  x=x + "The number is " + i + "<br />";
+  i++;
   }
+document.getElementById("demo").innerHTML=x;
+}
 </script>
+
 </body>
 </html>

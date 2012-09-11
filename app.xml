@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Module>
-    <ModulePrefs title="Try Catch throw application"
+    <ModulePrefs title="forloop and whileloop"
                 author="Mamatha"
            description="java script">
         <Link rel="Icon" href="group-icon.png"/>
