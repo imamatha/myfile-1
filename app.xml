@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Module>
+    <ModulePrefs title="Try Catch throw application"
+                author="Mamatha"
+           description="java script">
+        <Link rel="Icon" href="group-icon.png"/>
+        <Require feature="dynamic-height"/>
+        <Require feature="jive-core-v2"/>
+        <Require feature="jquery-1.4.2"/>
+        <Require feature="minimessage"/>
+        <Require feature="osapi"/>
+        <Require feature="views"/>
+    </ModulePrefs>
+    <Content view="home" type="html" href="home.html"/>
+<Content view="canvas" type="html" href="canvas.html"/>
+</Module>
