@@ -12,5 +12,6 @@
         <Require feature="osapi"/>
         <Require feature="views"/>
     </ModulePrefs>
-    <Content view="home,canvas" type="html" href="home.html"/>
+    <Content view="home," type="html" href="home.html"/>
+     <Content view="canvas," type="html" href="canvas.html"/>
 </Module>
